@@ -1,0 +1,372 @@
+<script>
+function openKota(namaKota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(namaKota).style.display = "block"; 
+}
+</script>
+
+
+<meta name="viewsport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<div class="w3-container w3-black w3-mobile">
+    <img src="capres.png" width="1500px" height="350px">
+</div>
+
+<div class="w3-bar w3-black w3-card-4">
+	<button class="w3-bar-item w3-button w3-hover-indigo w3-hover-text-white w3-text-black w3-modal-content" onclick="openKota('Home')">Home</button>
+	<button class="w3-bar-item w3-button w3-hover-pale-green w3-hover-text-green w3-text-green" onclick="openKota('visi01')">Visi-Misi 01</button>
+	<button class="w3-bar-item w3-button w3-hover-light-blue w3-hover-text-blue w3-text-light-blue" onclick="openKota('visi02')">Visi-Misi 02</button>
+	<button class="w3-bar-item w3-button w3-hover-red w3-hover-text-black w3-text-red" onclick="openKota('visi03')">Visi-Misi 03</button>
+		<div class="w3-dropdown-hover">
+			<button class="w3-button w3-hover-dark-gray w3-hover-text-black w3-text-white">Profil Calon Presiden</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-pale-green w3-hover-text-green" onclick="openKota('Anies')">01' Anies Baswedan</button>
+				<button class="w3-bar-item w3-button w3-light-blue w3-hover-text-blue" onclick="openKota('Prabowo')">02' Prabowo Subianto</button>
+				<button class="w3-bar-item w3-button w3-red w3-hover-text-pink" onclick="openKota('Ganjar')">03' Ganjar Pranowo</button>
+			</div>
+		</div>
+        <div class="w3-dropdown-hover">
+			<button class="w3-button w3-hover-dark-gray w3-hover-text-black w3-text-white">Profil Calon Wakil Presiden</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-pale-green w3-hover-text-green" onclick="openKota('Imin')">01' Muhaimin Iskandar</button>
+				<button class="w3-bar-item w3-button w3-light-blue w3-hover-text-blue" onclick="openKota('Gibran')">02' Gibran Rakabuming</button>
+				<button class="w3-bar-item w3-button w3-red w3-hover-text-pink" onclick="openKota('Mahfud')">03' Mahfud MD</button>
+			</div>
+		</div>
+    <button class="w3-bar-item w3-button w3-right" onclick="openKota('Profil')">Profil</button>
+		
+</div>
+
+<div id="visi01" class="w3-container kota w3-black" style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-pale-green w3-animate-bottom w3-monospace w3-xlarge">
+		<center>
+		<h2><strong>VISI & MISI <BR> PASANGAN CALON PRESIDEN DAN WAKIL PRESIDEN<BR> NOMOR URUT 01</strong></h2>
+		<br>
+		<img src="amin.png" width="380px" height="420px">
+		<h3><strong> ANIES BASWEDAN <br> MUHAIMIN ISKANDAR</strong></h3>
+			<p>
+				Visi : Indonesia Adil dan Makmur Untuk Semua <br>
+				Misi :
+		</center>
+			<div class="w3-padding-large w3-large">
+				<ol>
+					<li>Memastikan ketersediaan kebutuhan pokok dan biaya hidup murah melalui kemandirian pangan, ketahanan energi, dan kedaulatan air
+					<li>Mengentaskan kemiskinan dengan memperluas kesempatan berusaha dan menciptakan lapangan kerja, mewujudkan upah berkeadilan, menjamin kemajuan ekonomi berbasis kemandirian dan pemerataan, serta mendukung korporasi Indonesia berhasil di negeri sendiri dan bertumbuh di kancah global
+					<li>Mewujudkan keadilan ekologis berkelanjutan untuk generasi mendatang: Membangun kota dan desa berbasis kawasan yang manusiawi, berkeadilan, dan saling memajukan
+					<li>Mewujudkan manusia Indonesia yang sehat, cerdas, produktif, berakhlak, serta berbudaya</li>
+					<li>Mewujudkan keluarga Indonesia yang sejahtera dan bahagia sebagai akar kekuatan bangsa</li>
+					<li>Memperkuat sistem pertahanan dan keamanan negara, serta meningkatkan peran dan kepemimpinan Indonesia dalam kancah global untuk mewujudkan kepentingan nasional dan perdamaian dunia</li>
+					<li>Memulihkan kualitas demokrasi, menegakkan hukum dan HAM, memberantas korupsi tanpa tebang pilih, serta menyelenggarakan pemerintahan yang berpihak pada rakyat.</li>
+				</ol>
+			</p>
+			</div>
+	</div>
+</div>
+
+<div id="visi02" class="w3-container kota w3-black" style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-light-blue w3-animate-bottom w3-monospace w3-xlarge">
+		<center>
+		<h2><strong>VISI & MISI <BR> PASANGAN CALON PRESIDEN DAN WAKIL PRESIDEN<BR> NOMOR URUT 02</strong></h2>
+		<br>
+		<img src="capres02.png" width="420px" height="380px">
+		<h3><strong> PRABOWO SUBIANTO <br> GIBRAN RAKABUMING RAKA</strong></h3><br>
+			<p>
+			Visi : Bersama Indonesia Maju Menuju Indonesia Emas 2045<br>
+			Misi :
+		</center>
+		<div class="w3-padding-large w3-large">
+			<ol>
+				<li>Memperkokoh ideologi Pancasila, demokrasi, dan hak asasi manusia (HAM):
+				<li>Memantapkan sistem pertahanan keamanan negara dan mendorong kemandirian bangsa melalui swasembada pangan, energi, air, ekonomi syariah, ekonomi digital, ekonomi hijau, dan ekonomi biru:
+				<li>Melanjutkan pengembangan infrastruktur dan meningkatkan lapangan kerja yang berkualitas, mendorong kewirausahaan, mengembangkan industri kreatif serta mengembangkan agro-maritim industri di sentra produksi melalui peran aktif koperasi;
+				<li>Memperkuat pembangunan sumber daya manusia (SDM), sains, teknologi, pendidikan, kesehatan, prestasi olahraga, kesetaraan gender, serta penguatan peran perempuan, pemuda (generasi milenial dan generasi Z), dan penyandang disabilitas;
+				<li>Melanjutkan hilirisasi dan mengembangkan industri berbasis sumber daya alam untuk meningkatkan nilai tambah di dalam negeri;
+				<li>Membangun dari desa dan dari bawah untuk pertumbuhan ekonomi, pemerataan ekonomi, dan pemberantasan kemiskinan; Memperkuat reformasi politik, hukum, dan birokrasi, serta memperkuat pencegahan dan pemberantasan korupsi, narkoba, judi, dan penyelundupan;
+				<li>Memperkuat penyelarasan kehidupan yang harmonis dengan lingkungan, alam dan budaya, serta peningkatan toleransi antarumat beragama untuk mencapai masyarakat yang adil dan makmur.
+			</ol>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div id="visi03" class="w3-container kota w3-black w3-text-black" style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-red w3-animate-bottom w3-text-black w3-monospace w3-xlarge">
+		<center>
+		<h2><strong>VISI & MISI <BR> PASANGAN CALON PRESIDEN DAN WAKIL PRESIDEN <BR> NOMOR URUT 03</strong></h2>
+		<br>
+		<img src="capres03.png" width="400px" height="400px">
+		<h3><strong>GANJAR PRANOWO <br> MAHFUD MD</strong></h3>
+			<p>
+				Visi : Gerak Cepat Menuju Indonesia Unggul<br>
+				Misi :
+		</center>
+			<div class="w3-padding-large w3-large">
+				<ol>
+					<li>Manusia Indonesia yang sehat, terdidik, dan sejahtera;
+					<li>Indonesia unggul dalam bidang inovasi dan teknologi, Ekonomi yang tangguh dan berdikari;
+					<li>Hilangnya kemiskinan dan ketimpangan antarwilayah dari akarnya;
+					<li>Ekosistem digital yang mengutamakan akses internet cepat dan terjangkau
+					<li>Pembangunan ekonomi yang memperhatikan kelestarian lingkungan;
+					<li>Demokrasi terjaga melalui pemberantasan korupsi dan pemerintahan inklusif berlandaskan supremasi hukum:
+					<li>Indonesia bangsa terhormat di kancah internasional, serta pertahanan yang tangguh dan modern.
+				</ol>
+			</div>	
+			</p>
+	</div>
+</div>
+
+<div id="Anies" class="w3-container kota w3-center w3-black" style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-pale-green w3-animate-bottom">
+		<h1 class="w3-monospace"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 01</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Anies.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>ANIES BASWEDAN</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Anies Rasyid Baswedan
+							<li>Tempat, Tanggal Lahir  : Kuningan, 7 Mei 1969
+							<li>Usia                           : 54 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Rektor Universitas Paramadina <br>(2007-2013)
+									<li>Menteri Pendidikan dan Kebudayaan <br>(2014-2016)
+									<li>Gubernur DKI Jakarta <br>(2017-2022)
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>	
+</div>
+
+<div id="Prabowo" class="w3-container kota w3-center w3-black " style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-light-blue w3-animate-bottom">
+		<h1 class="w3-monospace"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 02</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Prabowo.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>PRABOWO SUBIANTO</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Prabowo Subianto Djojohadikusumo
+							<li>Tempat, Tanggal Lahir	: Jakarta, 17 Oktober 1951
+							<li>Usia					: 72 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Panglima Komando Cadangan Strategi <br>TNI Angkatan Darat (1998)
+									<li>Ketua Umum Partai Gerindra <br>(2014-Sekarang) 
+									<li>Menteri Pertahanan <br>(2019-2024) 
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>
+</div>
+
+<div id="Ganjar" class="w3-container kota w3-center w3-black " style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-red w3-animate-bottom">
+		<h1 class="w3-monospace w3-text-black"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 03</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Ganjar.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>GANJAR PRANOWO</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Ganjar Pranowo
+							<li>Tempat, Tanggal Lahir	: Karang Anyar, 28 Oktober 1968
+							<li>Usia					: 54 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Anggota DPR RI Fraksi PDI Perjuangan<br> (2004-2009 dan 2009-2013)
+									<li>Gubernur Jawa Tengah<br>(2013-2023) 
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>
+</div>
+
+<div id="Imin" class="w3-container kota w3-center w3-black" style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-pale-green w3-animate-bottom">
+		<h1 class="w3-monospace"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 01</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Imin.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>MUHAIMIN ISKANDAR</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Abdul Muhaimin Iskandar
+							<li>Tempat, Tanggal Lahir  : Jombang, 24 September 1966
+							<li>Usia                           : 57 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Wakil Ketua DPR RI <br>(2004-2009)
+									<li>Menteri Tenaga Kerja dan Transmigrasi <br>(2009-2014)
+									<li>Ketua Umum PKB <br>(2005-2010/2019-2024)
+									<li>Wakil Ketua DPR RI <br>(2019-2024)
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>	
+</div>
+
+<div id="Gibran" class="w3-container kota w3-center w3-black " style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-light-blue w3-animate-bottom">
+		<h1 class="w3-monospace"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 02</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Gibran.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>GIBRAN RAKABUMING</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Gibran Rakabuming Raka
+							<li>Tempat, Tanggal Lahir	: Surakarta, 1 Oktober 1987
+							<li>Usia					: 36 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Wali Kota Solo <br>(2021-2024)
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>
+</div>
+
+<div id="Mahfud" class="w3-container kota w3-center w3-black " style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-red w3-animate-bottom">
+		<h1 class="w3-monospace w3-text-black"><strong>BIOGRAFI CALON PRESIDEN <br>NOMOR URUT 03</strong></h1>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center">
+								<div class="w3-card-4 w3-white">
+									<img src="Mahfud.jpg" width="216px" height="416px" style="width:100%">
+									<div class="w3-container">
+									<h5><strong>MAHFUD MD</strong></h5>
+								</div>
+						</div>
+					</td>
+					<td class="w3-xlarge">
+						<ul type="disc">
+							<li>Nama Lengkap            : Mohammad Mahfud Mahmodin
+							<li>Tempat, Tanggal Lahir	: Madura, 13 Mei 1957
+							<li>Usia					: 66 tahun
+							<li>Karir                           :
+								<ol>
+									<li>Menteri Pertahanan Republik Indonesia <br>(2000-2001) 
+									<li>Menteri Kehakiman dan Hak Asasi Manusia <br>(2001-2002) 
+									<li>Ketua Mahkamah Konstitusi <br> (2008-2013) 
+									<li>Menteri Koordinator Bidang Politik, Hukum dan Keamanan <br>(2019-2024)
+								</ol>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		<br>
+		<br>
+		</center> 
+	</div>
+</div>
+
+<div id="Home" class="w3-container kota w3-black">
+	<div class="w3-panel w3-round-xlarge w3-blue-gray w3-animate-zoom w3-text-black">
+		<center>
+		<p>
+		<img src="pemilu.png" width="150px" height="250px"><br>
+		<font size="7" face="Calibri"><strong>PEMILIHAN UMUM CALON PRESIDEN DAN WAKIL PRESIDEN <br>TAHUN 2024</strong></font><br>
+		</p>
+	</div>
+</div>
+
+<div id="Profil" class="w3-container kota w3-center w3-black " style="display:none">
+	<div class="w3-panel w3-round-xlarge w3-dark-gray">
+		<br>
+		<br>
+		<center>
+		<table>
+				<tr>
+					<td>
+						<div class="w3-row-padding w3-margin-top w3-center w3-animate-zoom">
+							<div class="w3-card-4 w3-gray w3-round-xlarge">
+								<img src="profile.jpg" width="216px" height="416px" style="width:100%">
+								<div class="w3-container">
+									<h5 class="w3-cursive"><strong>GYBRANT FAHREZA</strong></h5>
+									<h5 class="w3-cursive"><strong>NIM : 10123394</strong></h5>
+									<h5 class="w3-cursive"><strong>KELAS IF 10</strong></h5>
+							</div>
+						</div>
+					</td>
+				</tr>	
+		</table>
+		</center>
+		<br>
+		<br>
+	</div>
+</div>
